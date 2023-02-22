@@ -46,6 +46,12 @@ namespace ProjectStudy
                 i++;
             }
 
+            for (int a = 0; a < products.Length; a++)
+            {
+                Console.WriteLine("ForDöngüsü ile Geziyor " + products[a].ProductName);
+            }
+
+
             Console.WriteLine("Ürünlerimiz Listelendi");
         }
 
