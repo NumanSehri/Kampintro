@@ -32,6 +32,21 @@ namespace Metotlar
 
             }
 
+            Console.WriteLine("----------------Metotlar----------------------");
+
+
+            //instance-örnek
+            //encapsulation
+            //sepetmanager class çağırdık
+            SepetManager sepetManager = new SepetManager();
+            
+            sepetManager.Add(product1);
+            sepetManager.Add(product2);
+
+            sepetManager.Add1("Armut", "Yeşil Armut", 12);
+            sepetManager.Add1("elma", "Yeşil Elma", 9);
+            sepetManager.Add1("Karpuz", "Diyarbakır Karpuzu", 50);
+
 
         }
     }
