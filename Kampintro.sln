@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Donguler", "Donguler\Dongul
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassIntroVeri", "ClassIntroVeri\ClassIntroVeri.csproj", "{BBC3D91F-C142-4222-86CC-B72B592B2822}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectStudy", "ProjectStudy\ProjectStudy.csproj", "{3FA199A4-B688-4A2A-A056-AA4ADE2006C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectStudy", "ProjectStudy\ProjectStudy.csproj", "{3FA199A4-B688-4A2A-A056-AA4ADE2006C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metotlar", "Metotlar\Metotlar.csproj", "{2A77460C-6F20-42BC-9802-0ABDA11FE1E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{3FA199A4-B688-4A2A-A056-AA4ADE2006C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FA199A4-B688-4A2A-A056-AA4ADE2006C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FA199A4-B688-4A2A-A056-AA4ADE2006C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A77460C-6F20-42BC-9802-0ABDA11FE1E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A77460C-6F20-42BC-9802-0ABDA11FE1E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A77460C-6F20-42BC-9802-0ABDA11FE1E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A77460C-6F20-42BC-9802-0ABDA11FE1E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

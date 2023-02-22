@@ -37,20 +37,23 @@ namespace ProjectStudy
                 Console.WriteLine("Fiyatı:" + product.ProductPrice);
                 Console.WriteLine("Stok Durumu:" + product.ProductStock);
             }
+            //forech döngüsü ile oluşturduğum diziyi döndüm
+
             int i = 0;
             
             while (i<products.Length)
             {
                 
                 Console.WriteLine("While Döngüsü ile yazıldı " + products[i].ProductName);
-                i++;
+                i++;//i arttırmazsak sonsuz döngüye girebilir
             }
+            //While döngüsü ile oluşturduğum diziyi döndüm
 
             for (int a = 0; a < products.Length; a++)
             {
                 Console.WriteLine("ForDöngüsü ile Geziyor " + products[a].ProductName);
             }
-
+            //fordöngüsü ile oluşturduğum diziyi döndüm
 
             Console.WriteLine("Ürünlerimiz Listelendi");
         }
