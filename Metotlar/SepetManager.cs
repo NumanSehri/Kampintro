@@ -17,7 +17,7 @@ namespace Metotlar
 
         }
 
-        public void Add1(string productName, string productInfo,double productPrice)
+        public void Add1(string productName, string productInfo,double productPrice,int StokAdedi)
         {
             Console.WriteLine("Tebrikler. Sepete Ürün Eklendi : " + productName);
 
