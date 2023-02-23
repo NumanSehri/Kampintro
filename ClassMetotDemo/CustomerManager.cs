@@ -11,7 +11,7 @@ namespace ClassMetotDemo
 
         }
 
-        public void List(Customer customer)
+        public void List(params Customer[] customer)
         {
 
         }
