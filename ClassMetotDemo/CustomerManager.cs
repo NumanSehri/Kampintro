@@ -8,17 +8,17 @@ namespace ClassMetotDemo
     {
         public void Add(Customer customer)
         {
-
+            Console.WriteLine("Müşteri : " + customer.CustomerName + " Eklendi");
         }
 
-        public void List(params Customer[] customer)
+        public void List(Customer customer)
         {
-
+                                     Console.WriteLine(customer.CustomerName + "Müşteriler Listelendi");
         }
 
         public void Delete(Customer customer)
         {
-
+            Console.WriteLine(customer.CustomerName + "Müşteri Silindi");
         }
 
 
