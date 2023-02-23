@@ -11,9 +11,13 @@ namespace ClassMetotDemo
             Console.WriteLine("Müşteri : " + customer.CustomerName + " Eklendi");
         }
 
-        public void List(Customer customer)
+        public void List(params Customer[] customer)
         {
-                                     Console.WriteLine(customer.CustomerName + "Müşteriler Listelendi");
+            foreach (var customers in  customer)
+            {
+                Console.WriteLine(customers);
+            }
+                                     
         }
 
         public void Delete(Customer customer)
