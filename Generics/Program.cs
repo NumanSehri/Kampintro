@@ -47,6 +47,7 @@ namespace Generics
             _array[_array.Length - 1] = item;
 
         }
+        //Bu nedir ne işe yarar
         private int _count;
 
         public int Count
