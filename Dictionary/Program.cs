@@ -27,9 +27,6 @@ namespace Dictionary
     public class Dictinor<key,value>
 
     {
-        public void Add(ke)
-        {
-
-        }
+        
     }
 }
