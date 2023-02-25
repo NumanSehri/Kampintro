@@ -13,7 +13,7 @@ namespace OOP3
 
             ILoggerService dataloggerService = new DatabseLoggerService();
             ILoggerService fileLogerService = new FileLoggerService();
-             
+
 
             List<ILoggerService> loggerServices=new List<ILoggerService>() { new DatabseLoggerService(), new SmsLoggerService()};
 
