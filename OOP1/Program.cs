@@ -22,14 +22,12 @@ namespace OOP1
             //Case sensitive
 
             ProductManager productManager = new ProductManager();
-            productManager.Add(product1);
+            productManager.Add(product1); //Product metot ile ürün ekledim
             Console.WriteLine(product1.ProductName);
 
-            int sayi = 100;
-            productManager.BiseyYap(sayi);
-            Console.WriteLine(sayi);
-
-
+            int toplamaSonucu = productManager.Topla(9,5);
+            Console.WriteLine(toplamaSonucu + " Toplm sonucu Return ile geri döndü");
+            productManager.Topla2(5,8);
         }
     }
 }
