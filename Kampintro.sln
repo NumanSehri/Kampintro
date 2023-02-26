@@ -25,19 +25,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collection", "Collection\Co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsIntro", "GenericsIntro\GenericsIntro.csproj", "{BF834876-1776-4308-906F-AA6D13FC3CFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DenemeOdev", "Deneme\DenemeOdev.csproj", "{6FCFFEF2-F3A8-4CBC-9808-E9BDB72C155E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DenemeOdev", "Deneme\DenemeOdev.csproj", "{6FCFFEF2-F3A8-4CBC-9808-E9BDB72C155E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorOdev", "ConstructorOdev\ConstructorOdev.csproj", "{C55803CE-EBFF-4858-A137-1C833285101D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstructorOdev", "ConstructorOdev\ConstructorOdev.csproj", "{C55803CE-EBFF-4858-A137-1C833285101D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{DC512477-CEB4-46DB-BE11-67C9CA24F0F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generics", "Generics\Generics.csproj", "{DC512477-CEB4-46DB-BE11-67C9CA24F0F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary", "Dictionary\Dictionary.csproj", "{570E2086-5A0C-4372-BE4C-B356FF78D47C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dictionary", "Dictionary\Dictionary.csproj", "{570E2086-5A0C-4372-BE4C-B356FF78D47C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oop2", "Oop2\Oop2.csproj", "{B7F3DCD5-14E3-4E96-AAD0-38281BBA0D2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oop2", "Oop2\Oop2.csproj", "{B7F3DCD5-14E3-4E96-AAD0-38281BBA0D2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP3", "OOP3\OOP3.csproj", "{94402DE7-69E4-4676-8D06-B4B8F434D77A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP3", "OOP3\OOP3.csproj", "{94402DE7-69E4-4676-8D06-B4B8F434D77A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceDeneme", "InterfaceDeneme\InterfaceDeneme.csproj", "{6BA4102C-5AB8-4353-B918-D44F3844CC29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceDeneme", "InterfaceDeneme\InterfaceDeneme.csproj", "{6BA4102C-5AB8-4353-B918-D44F3844CC29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacesDemo", "InterfacesDemo\InterfacesDemo.csproj", "{ACD4226E-754B-4491-9AA8-4B4CF9F77476}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{6BA4102C-5AB8-4353-B918-D44F3844CC29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BA4102C-5AB8-4353-B918-D44F3844CC29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BA4102C-5AB8-4353-B918-D44F3844CC29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACD4226E-754B-4491-9AA8-4B4CF9F77476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD4226E-754B-4491-9AA8-4B4CF9F77476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD4226E-754B-4491-9AA8-4B4CF9F77476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD4226E-754B-4491-9AA8-4B4CF9F77476}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
